@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.band-name {
+  font-size: 100px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.band-name-flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 100px auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.band-name-flex-item {
+  /* border: 1px dashed white; */
+  padding: 20px;
+}
+
+.band-name-flex-item:hover {
+  background-color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: black;
+  text-transform: lowercase;
+  padding: 0px 20px;
+}
+
+.band-name-flex-item-italics:hover {
+  font-style: italic;
+}
+
+.band-name-flex-item-sanserif:hover {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* padding: 0px 0px 20px 0px; */
+}
+.band-name-flex-item-serif:hover {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
