@@ -1,1 +1,2 @@
-git remote set-url to change repo url
+to change repo url
+`git remote set-url`
