@@ -8,3 +8,12 @@ creates new branch and changes
 
 switch back to main branch
 `git switch ‘main’`
+
+list your branches
+`git branch`
+
+list all branches (local and remote)
+`git branch -a`
+
+delete a branch
+`git branch -d <branchname>`
